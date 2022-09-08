@@ -8,6 +8,7 @@ export default function App() {
     <SafeAreaView style={{
       flex: 1, marginTop: StatusBar.currentHeight,
     }}>
+      <StatusBar barStyle={'default'} />
       <MyStack />
       <FlashMessage position="top" />
     </SafeAreaView>
